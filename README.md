@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Julia, where code after a return statement is unreachable. The function `myfunction` calculates the square of a number if it's positive, and the negative of its square if it's negative. However, the line `return x + 1` is always unreachable, causing a potential issue if this code was meant to be executed under some condition.
